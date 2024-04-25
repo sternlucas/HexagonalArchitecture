@@ -1,14 +1,15 @@
 package server
 
 import (
-	"github.com/codeedu/go-hexagonal/adapters/web/handler"
-	"github.com/codeedu/go-hexagonal/application"
-	"github.com/codegangsta/negroni"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/codegangsta/negroni"
+	"github.com/gorilla/mux"
+	"github.com/sternlucas/HexagonalArchitecture/adapters/web/handler"
+	"github.com/sternlucas/HexagonalArchitecture/application"
 )
 
 type Webserver struct {

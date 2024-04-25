@@ -2,11 +2,12 @@ package cli_test
 
 import (
 	"fmt"
-	"github.com/codeedu/go-hexagonal/adapters/cli"
-	mock_application "github.com/codeedu/go-hexagonal/application/mocks"
-	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/golang/mock/gomock"
+	"github.com/sternlucas/HexagonalArchitecture/adapters/cli"
+	mock_application "github.com/sternlucas/HexagonalArchitecture/application/mocks"
+	"github.com/stretchr/testify/require"
 )
 
 func TestRun(t *testing.T) {

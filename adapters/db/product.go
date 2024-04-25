@@ -3,8 +3,8 @@ package db
 import (
 	"database/sql"
 
-	"github.com/codeedu/go-hexagonal/application"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/sternlucas/HexagonalArchitecture/application"
 )
 
 type ProductDb struct {
